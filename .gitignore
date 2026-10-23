@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+documents/*
+!documents/.gitkeep
+.streamlit/secrets.toml
+data/
+*.db
+*.sqlite
+*.sqlite3
