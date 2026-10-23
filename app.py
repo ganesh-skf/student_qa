@@ -145,7 +145,7 @@ if user["role"] == "trainer":
 
 else:
     st.subheader("Ask your course assistant")
-    st.caption("The assistant uses trainer-uploaded PDFs. If the answer is not in the documents, it should say so.")
+    st.caption("The assistant uses trainer-uploaded PDFs. If the answer is not in the documents, it should say No.")
 
     history = get_student_history(user["id"], limit=30)
     if history and not st.session_state.messages:
